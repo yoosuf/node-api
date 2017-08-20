@@ -1,9 +1,21 @@
 {
-  "name": "biller-node",
-  "version": "0.0.0",
+  "name": "node-api",
+  "version": "0.0.1",
+  "description": "A sample Node.js API using Express 4",  
   "private": true,
-  "scripts": {
-    "start": "nodemon ./bin/WWW --exec babel-node --presets es2015"
+  "keywords": [
+    "node",
+    "api",
+    "express"
+  ],
+  "author": "Yoosuf Muhammad",
+  "contributors": [
+    "Yoosuf Muhammad <mayoosuf@gmail.com> (https://yoosuf.me)"
+  ],
+  "license": "MIT", 
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yoosuf/node-api"
   },
   "dependencies": {
     "body-parser": "~1.17.1",
@@ -16,5 +28,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "nodemon": "^1.11.0"
+  },
+  "scripts": {
+    "start": "nodemon ./bin/WWW --exec babel-node --presets es2015"
   }
 }
