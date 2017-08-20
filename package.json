@@ -2,7 +2,7 @@
   "name": "node-api",
   "version": "0.0.2",
   "description": "A sample Node.js API using Express 4",
-  "private": true,
+  "private": false,
   "keywords": [
     "node",
     "api",
