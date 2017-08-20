@@ -1,7 +1,7 @@
 {
   "name": "node-api",
   "version": "0.0.1",
-  "description": "A sample Node.js API using Express 4",  
+  "description": "A sample Node.js API using Express 4",
   "private": true,
   "keywords": [
     "node",
@@ -12,17 +12,21 @@
   "contributors": [
     "Yoosuf Muhammad <mayoosuf@gmail.com> (https://yoosuf.me)"
   ],
-  "license": "MIT", 
+  "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/yoosuf/node-api"
   },
   "dependencies": {
+    "bcrypt": "^1.0.2",
     "body-parser": "~1.17.1",
+    "bookshelf": "^0.10.4",
     "cors": "^2.8.4",
     "debug": "~2.6.3",
     "express": "~4.15.2",
-    "morgan": "~1.8.1"
+    "knex": "^0.13.0",
+    "morgan": "~1.8.1",
+    "pg": "^7.1.2"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
