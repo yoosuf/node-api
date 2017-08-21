@@ -11,7 +11,7 @@ npm start
 
 
 
-Deployment
+## Deployment
 
 ```
 npm run build
@@ -19,7 +19,7 @@ npm run build
 ```
 
 
-Hosting
+## Hosting
 
 ```
 heroku local web
